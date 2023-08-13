@@ -73,14 +73,20 @@
 
 .main-container {
     width: 100%;
+    height: 100%;
 
 
-    position: relative;
-
-    overflow: hidden;
+  position: absolute;
+   z-index: -9999999;
+   
 }
 
+.topic-container{
+    position: relative;
+    
+}
 .inner-container {
+    overflow: hidden;
     margin: 0 auto;
     max-width: 1980px;
 }
@@ -115,16 +121,24 @@ body {
     font-family: var(--ff-primary);
 
 }
-
 .navbar ul li a {
     text-decoration: none;
     color: var(--neutral-clr);
+    transition: all 0.3s ease;
 }
 
+.navbar ul li a:hover{
+    color: var(--text-clr);
+    text-shadow: 0px 4px 15px  rgba(255, 255, 255, 0.60);    
+}
+.phone-electro{
+    position: absolute;
+    display: none;
+}
 .section1 {
     display: flex;
     flex-direction: column;
-
+  margin-bottom: 492px;
 
 }
 
@@ -134,9 +148,9 @@ body {
 
 
 .first_vue {
-    padding-bottom: 500px;
+  
     position: relative;
-   
+    
 }
 
 .electro {
@@ -149,7 +163,6 @@ body {
     position: absolute;
     top: 275px;
     right: 0;
-
     animation: moving 8s linear infinite;
 }
 
@@ -234,18 +247,16 @@ body {
 
 }
 
-/* Apply the mask animation */
 #mask-rect2 {
     animation: colorCross2 2s linear infinite;
 
 }
 
-/* Define the mask */
 #color-mask2 {
     mask: url(#mask-rect2);
 }
 
-/* Keyframes for the typewriter animation */
+
 @keyframes typing {
     0% {
         width: 0;
@@ -304,18 +315,17 @@ body {
 
 }
 
-.aboutme-details {
-    margin-left: 328px;
-}
+
 
 .aboutme-container {
     position: relative;
     padding-bottom: 300px;
+   margin: 0 328px;
 }
 
 .education {
     position: absolute;
-    right: 328px;
+    right: 15%;
     top: 0;
 }
 
@@ -324,7 +334,7 @@ body {
     font-size: var(--fs-200);
     font-weight: var(--fw-bold);
     color: var(--secondary-clr);
-    display: inline;
+    
 }
 
 .detail-speech {
@@ -339,15 +349,13 @@ body {
 .detail-container-end {
     display: flex;
     justify-content: end;
-    margin-right: 200px;
+   
 }
 
-.detail-container-start {
-    margin-left: 200px;
-}
+
 
 .details-container {
-    margin-top: 276px;
+   margin: 276px auto 136px;
 }
 
 .detail3 {
@@ -357,7 +365,7 @@ body {
 .detail-union {
     position: absolute;
     top: 350px;
-    left: 40%;
+    right: 40%;
 }
 
 h4 {
@@ -368,7 +376,7 @@ h4 {
     background-color: transparent;
     border-color: var(--neutral-clr);
     cursor: pointer;
-
+   transition: all 0.6s ease;
 }
 
 .button span {
@@ -378,11 +386,13 @@ h4 {
     font-weight: bold;
     margin: 7px 23px;
 }
-
+.button:hover {
+    background-color: var(--secondary-clr);
+    border-color: transparent; 
+}
 .cv-button {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
 }
 
 .solo-electro3 {
@@ -413,12 +423,10 @@ h4 {
 
 }
 
-/* Apply the mask animation */
 #mask-rect3 {
     animation: colorCross3 2s linear infinite;
 }
 
-/* Define the mask */
 #color-mask3 {
     mask: url(#mask-rect3);
 }
@@ -449,13 +457,11 @@ h4 {
 
 }
 
-/* Apply the mask animation */
 #mask-rect4 {
     animation: colorCross4 2s linear infinite;
 
 }
 
-/* Define the mask */
 #color-mask4 {
     mask: url(#mask-rect4);
 }
@@ -465,24 +471,37 @@ h4 {
 
 
 
-
+.Myskills-container{
+    position: relative;
+    padding-bottom: 200px;  margin: 76px 328px;
+}
+.little-code{
+    position: absolute;
+    z-index: -1;
+    top: -10%;
+}
+.big-code{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
 .myskills-title {
     font-family: var(--ff-primary);
     font-size: var(--fs-secondary-heading);
     font-weight: var(--fw-bold);
     color: var(--text-clr);
     margin-bottom: 76px;
-    margin-left: 328px;
+  
+
 
 }
 
 .skills-cards-container {
-    display: flex;
-    justify-content: center;
+    display: flex;   
     gap: 86px;
     padding-bottom: 100px;
-    flex-wrap: wrap;
-    margin: 20px;
+    justify-content: center;
 }
 
 .skill-card {
@@ -504,4 +523,12 @@ h4 {
     height: 193px;
 }
 
+
+.myskills-main-container{
+    position: relative;
+}
+
+.aboutme-main-container{
+    position: relative;
+}
 

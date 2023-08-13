@@ -1,242 +1,379 @@
-@media (max-width:1730px) {
-    .detail-container-start {
-        margin-left: 100px;
+@media (max-width:1740px){
+    
+    .aboutme-container{
+        margin: 0 250px;
+    }
+    .Myskills-container{
+        margin: 76px 250px;
     }
 
-    .detail-container-end {
-        margin-right: 100px;
+    :root{
+        --fs-100: 19px;
+        --fs-200: 23px;
+        --fs-400: 42px;
+        --fs-500: 60px;
     }
-
+}
+@media (max-width:1545px){
     .detail-union svg {
-        width: 300px;
+      width: 300px;
     }
-
-    .myskills-title {
-        margin-left: 250px;
+    .detail-union{
+        top: 250px;
     }
-
-    .aboutme-details {
-        margin-left: 250px;
+    .aboutme-container{
+        margin: 0 200px;
     }
-
-    .education img {
-        width: 250px;
+    .Myskills-container{
+        margin: 76px 200px;
     }
-
-    .education {
-        right: 228px
+    :root{
+        --fs-100: 17px;
+        --fs-200: 21px;
+        --fs-400: 39px;
+        --fs-500: 57px;
     }
-
-    :root {
-        --fs-100: 18px;
-        --fs-200: 22px;
-        --fs-400: 40px;
-        --fs-500: 56px;
-    }
-
-    .antonio img {
-        width: 650px;
-    }
-
-    .electro img {
-        width: 300px;
+    .detail-speech{
+        max-width: 358px;
     }
 }
 
-@media (max-width:1532px) {
-    .navbar{
-        margin-bottom: 170px;
+@media(max-width:1436px){
+    .education{
+        right: 10%;
     }
-    .detail-container-start {
-        margin-left: 50px;
+    .skills-cards-container{
+        gap: 40px;
     }
-
-    .detail-container-end {
-        margin-right: 50px;
+    .aboutme-container{
+        margin: 0 150px;
     }
-
-    .detail-union svg {
-        width: 250px;
+    .Myskills-container{
+        margin: 76px 150px;
     }
-
-    .detail-union {
-        top: 300px;
-
-    }
-
-    .myskills-title {
-        margin-left: 150px;
-    }
-
-    .aboutme-details {
-        margin-left: 150px;
-    }
-
-    .education {
-        right: 150px
-    }
-
-    :root {
+    :root{
         --fs-100: 16px;
         --fs-200: 20px;
         --fs-400: 35px;
-        --fs-500: 50px;
+        --fs-500: 53px;
     }
-
-    .antonio img {
-        width: 550px;
+    .antonio img{
+        width: 500px;
     }
-
-    .electro img {
+    .electro img{
         width: 250px;
     }
-    .solo-electro {
-        top: 826px;
+    .education img{
+        width: 250px;
     }
-
-    .solo-electro2 {
-        top: 824px;
+    .aboutme-speeech {
+        max-width: 600px;
     }
-}
-
-@media (max-width:1280px) {
+    .little-code img{
+        width: 200px;
+    }
+    .big-code img{
+        width: 300px;
+    }
     .navbar{
         margin-bottom: 150px;
     }
-    :root {
+    .solo-electro{
+        top: 826px;
+    }
+    .solo-electro2{
+        top: 824px;
+    }
+}
+@media(max-width:1255px){
+    .education{
+        right: 10%;
+    }
+    .skills-cards-container{
+       flex-wrap: wrap;
+    }
+    .aboutme-container{
+        margin: 0 100px;
+    }
+    .Myskills-container{
+        margin: 76px 100px;
+    }
+    :root{
         --fs-100: 16px;
-        --fs-200: 18px;
+        --fs-200: 20px;
         --fs-400: 30px;
-        --fs-500: 45px;
+        --fs-500: 48px;
     }
-
-    .aboutme-speeech {
-        max-width: 500px;
-
-    }
-
-    .aboutme-details {
-        margin-top: 50px;
-    }
-
-    .detail-speech {
-        max-width: 350px;
-    }
-
-    .antonio img {
+    .antonio img{
         width: 400px;
     }
-
-    .electro img {
+    .electro img{
         width: 200px;
     }
-
-    .first_vue {
-        padding-bottom: 300px;
+    .education img{
+        width: 200px;
     }
-
-    .solo-electro {
-        top: 726px;
+    .aboutme-speeech {
+        max-width: 600px;
     }
-
-    .solo-electro2 {
-        top: 724px;
-    }
-
-    .skill-card-speech {
-        height: 120px;
-    }
-}
-
-@media (max-width:1100px) {
-    
-.navbar{
-    margin-bottom: 100px;
-}
-.cv-button{
-    margin-top: 100px;
-}
-    .education {
-        right: 50px;
-        top: 50px;
-    }
-
-    .education img {
+    .little-code img{
         width: 150px;
     }
-
-    .detail-speech {
-
-        max-width: 250px;
+    .big-code img{
+        width: 250px;
     }
-
-    .aboutme-details {
-        margin-left: 100px;
+    .navbar{
+        margin-bottom: 100px;
     }
-
+    .solo-electro{
+        top: 726px;
+    }
+    .solo-electro2{
+        top: 724px;
+    }
+    .solo-electro svg,.solo-electro2 svg,
+    .solo-electro3 svg,.solo-electro4 svg{
+     width: 1000px;
+    }
     .detail-union svg {
-        width: 200px;
+        width: 230px;
     }
-
     .detail3 {
         margin-top: 50px;
     }
-
-    .first_vue {
-        padding-bottom: 250px;
+    .section1{
+        margin-bottom: 350px;
     }
-
-    .solo-electro {
-        top: 686px;
+    .details-container {
+        margin: 176px auto 80px;
     }
-
-    .solo-electro2 {
-        top: 684px;
+    .detail-union {
+        top: 150px;
     }
+    .navbar{
+       padding-top: 20px; 
+    }
+    
+}
 
-    .myskills-title {
-        margin: 0;
-        margin: 50px auto;
-        text-align: center;
+
+@media(max-width:1100px){
+   
+    .aboutme-container{
+        margin: 0 50px;
+    }
+    .Myskills-container{
+        margin: 76px 50px;
+    }
+    :root{
+        --fs-100: 16px;
+        --fs-200: 20px;
+        --fs-400: 30px;
+        --fs-500: 48px;
+    }
+    .antonio img{
+        width: 350px;
+    }
+    .electro img{
+        width: 150px;
+    }
+    
+    .aboutme-speeech {
+        max-width: 500px;
+    }
+    .little-code img{
+        width: 150px;
+    }
+    .big-code img{
+        width: 250px;
+    }
+    .navbar{
+        margin-bottom: 100px;
+    }
+    .solo-electro{
+        top: 726px;
+    }
+    .solo-electro2{
+        top: 724px;
+    }
+    .detail-union svg {
+        width: 230px;
+    }
+    .detail3 {
+        margin-top: 0px;
+    }
+    .detail-speech {
+        max-width: 288px;
+    }
+    .solo-electro svg,.solo-electro2 svg,
+    .solo-electro3 svg,.solo-electro4 svg{
+     width: 700px;
+    }
+    h4{
+        margin-bottom: 10px;
     }
 }
 
-@media (max-width:850px) {
+@media (max-width:870px){
+    .detail-speech {
+        max-width: 200px;
+    }
+    
+    :root{
+        --fs-100: 14px;
+        --fs-200: 18px;
+        --fs-400: 26px;
+        --fs-500: 40px;
+    }
     .skill-card {
-        max-width: 250px;
+       flex-direction: row;
+       max-width: 500px;
+       align-items: center;
     }
-
-    .detail-union svg {
-        width: 150px;
+    .skill-card-speech{
+           display: flex;
+           align-items: center;
     }
-
-    .detail-union {
-        top: 170px;
+    .solo-electro{
+        top: 526px;
     }
-
-    :root {
-        --fs-100: 12px;
-        --fs-200: 16px;
-        --fs-400: 27px;
-        --fs-500: 38px;
+    .solo-electro2{
+        top: 524px;
     }
-
-    .antonio img {
+    .antonio img{
         width: 300px;
     }
-
-    .aboutme-container {
-        padding-bottom: 150px;
+    .section1 {
+        margin-bottom: 300px;
     }
-
-    .electro img {
+    .aboutme-speeech {
+        max-width: 400px;
+    }
+    .education img {
         width: 150px;
     }
-
-    .aboutme-details {
-        margin-top: 100px;
+    .education {
+     top: 50px;
     }
-    .skills-cards-container {
-    gap: 46px;
+    .little-code img{
+        width: 100px;
+    }
+    .big-code img{
+        width: 200px;
+    }
+    .solo-electro svg,.solo-electro2 svg,
+    .solo-electro3 svg,.solo-electro4 svg{
+     width: 600px;
+    }
+}
+
+@media(max-width:670px){
+    .solo-electro svg,.solo-electro2 svg,
+    .solo-electro3 svg,.solo-electro4 svg{
+     width: 400px;
+    }
+    .aboutme-container{
+        margin: 0 20px;
+    }
+    .Myskills-container{
+        margin: 76px 20px;
+    }
+    .education{
+        top: 160px;
+        right: 100px;
+    }
+    .details-container {
+        margin: 250px auto 80px;
+    }
+    .aboutme-speeech {
+        max-width: 90%;
+    }
+    .detail-union svg {
+        width:180px;
+    }
+    
+    :root{
+        --fs-100: 14px;
+        --fs-200: 17px;
+        --fs-400: 25px;
+        --fs-500: 40px;
+    }
+    .skill-card {
+   
+        max-width: 400px;
+       
+    }
+    .detail2{
+        margin-top: -40px;
+    }
+   
+    .Myskills-container {
+       
+        padding-bottom: 100px;
+       
+    }
+    .section1 {
+        margin-bottom: 300px;
+    }
+    .solo-electro{
+        top: 480px;
+    }
+    .solo-electro2{
+        top: 480px;
+    }
+    
+}
+
+@media (max-width:580px){
+    :root{
+        --fs-100: 14px;
+        --fs-200: 16px;
+        --fs-400: 24px;
+        --fs-500: 50px;
+    }
+    .detail-speech {
+        max-width: 150px;
+    }
+    .antonio{
+        display: none;
+    }
+    .solo-electro svg, .solo-electro2 svg, .solo-electro3 svg, .solo-electro4 svg {
+        width: 330px;
+    }
+    .animated-text2{
+        text-align: center;
+    }
+    .details-container {
+        margin: 200px auto 80px;
+    }
+    .detail-union svg {
+        width:130px;
+    }
+    .navbar{
+        display: none;
+    }
+    .section1{
+        padding-top: 350px;
+    }
+    .solo-electro{
+        top: 780px;
+    }
+    .solo-electro2{
+        top: 780px;
+    }
+   .detail3{
+    margin-top: -70px;
+   }
+   .phone-electro{
+    display: block;
+   }
+   .electro{
+    display: none;
+   }
+   .animated-text {
+  
+    letter-spacing: 0.01em;
+  
+
 }
 }
