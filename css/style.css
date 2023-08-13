@@ -4,7 +4,8 @@
     --card-clr: #2E86D81A;
     --neutral-clr: rgba(160, 172, 189, 1);
     --last-clr: rgba(24, 61, 95, 1);
-    --text-clr: rgba(255, 255, 255, 1);
+    
+    --text-clr: rgba(233, 233, 233, 1);
 
     --ff-primary: "Monda", sans-serif;
 
@@ -85,7 +86,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0;  
     padding: 0;
 }
 
