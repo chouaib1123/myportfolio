@@ -126,10 +126,10 @@
         margin-bottom: 100px;
     }
     .solo-electro{
-        top: 726px;
+        top: 680px;
     }
     .solo-electro2{
-        top: 724px;
+        top: 680px;
     }
     .solo-electro svg,.solo-electro2 svg,
     .solo-electro3 svg,.solo-electro4 svg{
@@ -191,10 +191,10 @@
         margin-bottom: 100px;
     }
     .solo-electro{
-        top: 726px;
+        top: 656px;
     }
     .solo-electro2{
-        top: 724px;
+        top: 654px;
     }
     .detail-union svg {
         width: 230px;
@@ -321,7 +321,12 @@
     .solo-electro2{
         top: 480px;
     }
-    
+    .little-code img{
+        width: 70px;
+    }
+    .big-code img{
+        width: 150px;
+    }
 }
 
 @media (max-width:580px){
@@ -329,7 +334,7 @@
         --fs-100: 14px;
         --fs-200: 16px;
         --fs-400: 24px;
-        --fs-500: 50px;
+        --fs-500: 48px;
     }
     .detail-speech {
         max-width: 150px;
@@ -376,4 +381,38 @@
   
 
 }
+.aboutme-speeech {
+    max-width: 100%;
+}
+.skill-card-icon img{
+    width: 64px;
+    }
+ .skill-card-speech{
+    height: 100px;
+    margin: auto 10px;
+ }   
+ .skill-card {
+    max-width: 370px;
+}
+}
+
+@media (max-width:430px){
+    :root{
+        --fs-100: 12px;
+        --fs-200: 14px;
+        --fs-400: 22px;
+        --fs-500: 45px;
+    }
+    .detail-speech {
+        max-width: 120px;
+    }
+    .detail-union {
+        top: 110px;
+    }
+    .detail2 {
+        margin-top: -70px;
+    }
+    .phone-electro{
+        left: -20%;
+    }
 }
