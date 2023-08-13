@@ -236,4 +236,7 @@
     .aboutme-details {
         margin-top: 100px;
     }
+    .skills-cards-container {
+    gap: 46px;
+}
 }
