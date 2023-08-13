@@ -1,0 +1,505 @@
+:root {
+    --primary-clr: rgba(8, 8, 8, 1);
+    --secondary-clr: rgba(46, 134, 216, 1);
+    --card-clr: #2E86D81A;
+    --neutral-clr: rgba(160, 172, 189, 1);
+    --last-clr: rgba(24, 61, 95, 1);
+    --text-clr: rgba(255, 255, 255, 1);
+
+    --ff-primary: "Monda", sans-serif;
+
+    --fw-bold: 700;
+    --fw-regular: 400;
+
+    --fs-100: 20px;
+    --fs-200: 24px;
+    --fs-400: 48px;
+    --fs-500: 64px;
+
+    --fs-neutral: var(--fs-200);
+    --fs-primary-heading: var(--fs-500);
+    --fs-secondary-heading: var(--fs-400);
+    --fs-body: var(--fs-100);
+}
+
+.ff-primary {
+    font-family: var(--ff-primary);
+}
+
+.fw-regular {
+    font-weight: var(--fw-regular);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+.fs-neutral {
+    font-size: var(--fs-neutral);
+}
+
+.fs-primary-heading {
+    font-size: var(--fs-primary-heading);
+}
+
+.fs-secondary-heading {
+    font-size: var(--fs-secondary-heading);
+}
+
+.fs-text {
+    font-size: var(--fs-body);
+}
+
+.bg-primary {
+    background-color: var(--primary-clr);
+}
+
+.bg-secondary {
+    background-color: var(--last-clr);
+}
+
+.bg-cards {
+    background-color: var(--card-clr);
+}
+
+.heading-colors {
+    color: var(--secondary-clr);
+}
+
+.text-color {
+    color: var(--text-clr);
+}
+
+.main-container {
+    width: 100%;
+
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.inner-container {
+    margin: 0 auto;
+    max-width: 1980px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+
+    padding-top: 63px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 216px;
+
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0;
+    gap: 32px;
+    justify-content: space-between;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: var(--fs-200);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-primary);
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--neutral-clr);
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.section1 div {
+    margin: 0 auto;
+}
+
+
+.first_vue {
+    padding-bottom: 500px;
+    position: relative;
+   
+}
+
+.electro {
+    position: absolute;
+    top: 50px;
+
+}
+
+.antonio {
+    position: absolute;
+    top: 275px;
+    right: 0;
+
+    animation: moving 8s linear infinite;
+}
+
+@keyframes moving {
+    0% {
+        top: 275px;
+        right: 0;
+    }
+
+    50% {
+        top: 100px;
+        right: -50px;
+    }
+
+    100% {
+        top: 275px;
+        right: 0;
+    }
+}
+
+.solo-electro {
+    position: absolute;
+    top: 1026px;
+
+}
+
+.solo-electro2 {
+    position: absolute;
+    top: 1024px;
+
+
+}
+
+@keyframes colorCross {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+
+}
+
+/* Apply the mask animation */
+#mask-rect {
+    animation: colorCross 2s linear infinite;
+}
+
+/* Define the mask */
+#color-mask {
+    mask: url(#mask-rect);
+}
+
+
+
+@keyframes colorCross2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+
+
+}
+
+/* Apply the mask animation */
+#mask-rect2 {
+    animation: colorCross2 2s linear infinite;
+
+}
+
+/* Define the mask */
+#color-mask2 {
+    mask: url(#mask-rect2);
+}
+
+/* Keyframes for the typewriter animation */
+@keyframes typing {
+    0% {
+        width: 0;
+
+    }
+
+    25% {
+        width: 100%;
+
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    75% {
+        width: 0%;
+
+    }
+
+    100% {
+
+        width: 0%;
+    }
+}
+
+.animated-text {
+    overflow: hidden;
+
+    white-space: nowrap;
+    border-right: .15em solid rgb(255, 255, 255);
+    letter-spacing: .10em;
+    animation: typing 10s steps(30, end) infinite, blink 1s step-end infinite;
+
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutme-speeech {
+    max-width: 754px;
+
+}
+
+.aboutme-details {
+    margin-left: 328px;
+}
+
+.aboutme-container {
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.education {
+    position: absolute;
+    right: 328px;
+    top: 0;
+}
+
+.detail-title {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-200);
+    font-weight: var(--fw-bold);
+    color: var(--secondary-clr);
+    display: inline;
+}
+
+.detail-speech {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-100);
+    font-weight: var(--fw-regular);
+    color: var(--text-clr);
+
+    max-width: 458px;
+}
+
+.detail-container-end {
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+}
+
+.detail-container-start {
+    margin-left: 200px;
+}
+
+.details-container {
+    margin-top: 276px;
+}
+
+.detail3 {
+    margin-top: 100px;
+}
+
+.detail-union {
+    position: absolute;
+    top: 350px;
+    left: 40%;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+.button {
+    background-color: transparent;
+    border-color: var(--neutral-clr);
+    cursor: pointer;
+
+}
+
+.button span {
+    color: var(--text-clr);
+    font-size: var(--fs-200);
+    font-family: var(--ff-primary);
+    font-weight: bold;
+    margin: 7px 23px;
+}
+
+.cv-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.solo-electro3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.solo-electro4 {
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+}
+
+
+@keyframes colorCross3 {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+
+}
+
+/* Apply the mask animation */
+#mask-rect3 {
+    animation: colorCross3 2s linear infinite;
+}
+
+/* Define the mask */
+#color-mask3 {
+    mask: url(#mask-rect3);
+}
+
+
+
+@keyframes colorCross4 {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+
+
+}
+
+/* Apply the mask animation */
+#mask-rect4 {
+    animation: colorCross4 2s linear infinite;
+
+}
+
+/* Define the mask */
+#color-mask4 {
+    mask: url(#mask-rect4);
+}
+
+
+
+
+
+
+
+.myskills-title {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-secondary-heading);
+    font-weight: var(--fw-bold);
+    color: var(--text-clr);
+    margin-bottom: 76px;
+    margin-left: 328px;
+
+}
+
+.skills-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    border-radius: 2px;
+    background-color: var(--card-clr);
+    display: flex;
+    flex-direction: column;
+    max-width: 365px;
+   margin: 50px;
+
+}
+
+.skill-card-speech {
+    margin: auto 34px;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-100);
+    font-weight: var(--fw-regular);
+    color: var(--text-clr);
+    height: 193px;
+}
+
+
