@@ -215,6 +215,10 @@
 }
 
 @media (max-width:870px){
+    .double-card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .detail-speech {
         max-width: 200px;
     }
@@ -265,9 +269,16 @@
     .solo-electro3 svg,.solo-electro4 svg{
      width: 600px;
     }
+    
 }
 
 @media(max-width:670px){
+    .gmail img{
+        width: 26px;
+    }
+    .gmail{
+        gap: 20px;
+    }
     .solo-electro svg,.solo-electro2 svg,
     .solo-electro3 svg,.solo-electro4 svg{
      width: 400px;
@@ -416,3 +427,4 @@
         left: -20%;
     }
 }
+

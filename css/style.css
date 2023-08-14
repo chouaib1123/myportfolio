@@ -532,3 +532,72 @@ h4 {
     position: relative;
 }
 
+
+.solo-electro6{
+    position: absolute;
+    top: -2px;
+}
+.edu{
+    margin-top: 60px;
+}
+.about-me-cards{
+   margin: 280px auto 150px;
+   display: flex;
+   flex-direction: column;
+   gap: 80px;
+}
+.double-card{
+    display: flex;
+    gap: 80px;
+   
+}
+.card{
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:transform 0.5s ;
+}
+.card:hover img {
+    transform: scale(1.3);
+}
+
+
+
+
+.solo-electro7{
+    display: flex;
+   justify-content: flex-end;
+   margin-bottom: 30px;
+}
+.solo-electro8{
+    position: absolute;
+    right: 1px;
+    top: -1px;
+}
+
+.edu{
+    right: 0;
+    top: 50px;
+}
+
+.gmail{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
