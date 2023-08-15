@@ -138,7 +138,7 @@ body {
 .section1 {
     display: flex;
     flex-direction: column;
-  margin-bottom: 492px;
+    margin-bottom: 292px;
 
 }
 
@@ -147,16 +147,11 @@ body {
 }
 
 
-.first_vue {
-  
-    position: relative;
-    
-}
 
 .electro {
     position: absolute;
     top: 50px;
-
+    
 }
 
 .antonio {
@@ -182,79 +177,34 @@ body {
         right: 0;
     }
 }
-
-.solo-electro {
-    position: absolute;
-    top: 1026px;
-
+.solo-electro{
+    margin-bottom: 30px;
+    position: relative;
+    z-index: -1;    
 }
-
 .solo-electro2 {
     position: absolute;
-    top: 1024px;
-
-
+    width: 40%;
+    height: 100%;
+    background-color: var(--primary-clr);
+    top: 0;
+    animation: colorCross 2s linear infinite;
+    
 }
-
+.solo-electro svg{
+    width: 70%;
+}
 @keyframes colorCross {
     0% {
-        transform: translateX(0);
-    }
-
-    50% {
-        transform: translateX(100%);
+        transform: translateX(-100%);
     }
 
     100% {
-        transform: translateX(100%);
+        transform: translateX(200%);
     }
-
-}
-
-/* Apply the mask animation */
-#mask-rect {
-    animation: colorCross 2s linear infinite;
-}
-
-/* Define the mask */
-#color-mask {
-    mask: url(#mask-rect);
 }
 
 
-
-@keyframes colorCross2 {
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(0);
-    }
-
-    30% {
-        transform: translateX(0);
-    }
-
-    75% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(100%);
-    }
-
-
-}
-
-#mask-rect2 {
-    animation: colorCross2 2s linear infinite;
-
-}
-
-#color-mask2 {
-    mask: url(#mask-rect2);
-}
 
 
 @keyframes typing {
@@ -317,16 +267,21 @@ body {
 
 
 
-.aboutme-container {
+.flex-container {
     position: relative;
-    padding-bottom: 300px;
+    
    margin: 0 328px;
+   padding-bottom: 270px;
 }
 
 .education {
     position: absolute;
-    right: 15%;
+    right: 10%;
     top: 0;
+}
+.education img{
+    width: 400px;
+    height: 300px;
 }
 
 .detail-title {
@@ -377,6 +332,7 @@ h4 {
     border-color: var(--neutral-clr);
     cursor: pointer;
    transition: all 0.6s ease;
+   
 }
 
 .button span {
@@ -395,77 +351,36 @@ h4 {
     justify-content: center;
 }
 
-.solo-electro3 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
 .solo-electro4 {
-    position: absolute;
-    bottom: -1px;
-    right: 1px;
+   
+        position: absolute;
+        width: 40%;
+        height: 150%;
+        background-color: var(--primary-clr);
+        top: 0;
+        animation: colorCross2 2s linear infinite;
+       
+    
 }
-
-
-@keyframes colorCross3 {
-    0% {
-        transform: translateX(0%);
-    }
-
-    50% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(100%);
-    }
-
+.solo-electro3 svg{
+    width: 70%;
 }
-
-#mask-rect3 {
-    animation: colorCross3 2s linear infinite;
+.solo-electro3{
+    margin-bottom: 30px;
+    position: relative;
+    z-index: -1; 
+    display: flex;
+    justify-content: flex-end;  
 }
-
-#color-mask3 {
-    mask: url(#mask-rect3);
-}
-
-
-
-@keyframes colorCross4 {
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(0);
-    }
-
-    30% {
-        transform: translateX(0);
-    }
-
-    75% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(100%);
-    }
-
-
-}
-
-#mask-rect4 {
-    animation: colorCross4 2s linear infinite;
-
-}
-
-#color-mask4 {
-    mask: url(#mask-rect4);
-}
-
+ @keyframes colorCross2 {
+            0% {
+                transform: translateX(100%);
+            }
+        
+            100% {
+                transform: translateX(-200%);
+            }
+        }
 
 
 
@@ -473,7 +388,8 @@ h4 {
 
 .Myskills-container{
     position: relative;
-    padding-bottom: 200px;  margin: 76px 328px;
+    margin: auto 328px;
+   
 }
 .little-code{
     position: absolute;
@@ -484,7 +400,7 @@ h4 {
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: -1;
+  
 }
 .myskills-title {
     font-family: var(--ff-primary);
@@ -500,7 +416,7 @@ h4 {
 .skills-cards-container {
     display: flex;   
     gap: 86px;
-    padding-bottom: 100px;
+
     justify-content: center;
 }
 
@@ -528,20 +444,15 @@ h4 {
     position: relative;
 }
 
-.aboutme-main-container{
+.Section{
     position: relative;
 }
 
 
-.solo-electro6{
-    position: absolute;
-    top: -2px;
-}
-.edu{
-    margin-top: 60px;
-}
+
+
 .about-me-cards{
-   margin: 280px auto 150px;
+   margin: 280px auto 136px;
    display: flex;
    flex-direction: column;
    gap: 80px;
@@ -553,7 +464,7 @@ h4 {
 }
 .card{
     border-radius: 5px;
-    border: 2px solid #FFF;
+    border: 1px solid #707070;
     overflow: hidden;
     position: relative;
    
@@ -563,30 +474,18 @@ h4 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition:transform 0.5s ;
+    transition:all 0.5s ;
 }
 .card:hover img {
     transform: scale(1.3);
+    opacity: 0.5;
 }
 
 
 
 
-.solo-electro7{
-    display: flex;
-   justify-content: flex-end;
-   margin-bottom: 30px;
-}
-.solo-electro8{
-    position: absolute;
-    right: 1px;
-    top: -1px;
-}
 
-.edu{
-    right: 0;
-    top: 50px;
-}
+
 
 .gmail{
     display: flex;
@@ -600,4 +499,8 @@ h4 {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+.footer{
+    margin: 0;
+    padding: 0;
 }

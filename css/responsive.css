@@ -1,12 +1,7 @@
-@media (max-width:1740px){
-    
-    .aboutme-container{
+@media (max-width:1740px){   
+    .flex-container{
         margin: 0 250px;
-    }
-    .Myskills-container{
-        margin: 76px 250px;
-    }
-
+    } 
     :root{
         --fs-100: 19px;
         --fs-200: 23px;
@@ -14,6 +9,8 @@
         --fs-500: 60px;
     }
 }
+
+
 @media (max-width:1545px){
     .detail-union svg {
       width: 300px;
@@ -21,12 +18,10 @@
     .detail-union{
         top: 250px;
     }
-    .aboutme-container{
+    .flex-container{
         margin: 0 200px;
     }
-    .Myskills-container{
-        margin: 76px 200px;
-    }
+   
     :root{
         --fs-100: 17px;
         --fs-200: 21px;
@@ -39,18 +34,17 @@
 }
 
 @media(max-width:1436px){
-    .education{
-        right: 10%;
+    .education img{
+        width: 350px;
+        height: 250px;
     }
     .skills-cards-container{
         gap: 40px;
     }
-    .aboutme-container{
+    .flex-container{
         margin: 0 150px;
     }
-    .Myskills-container{
-        margin: 76px 150px;
-    }
+   
     :root{
         --fs-100: 16px;
         --fs-200: 20px;
@@ -63,9 +57,7 @@
     .electro img{
         width: 250px;
     }
-    .education img{
-        width: 250px;
-    }
+   
     .aboutme-speeech {
         max-width: 600px;
     }
@@ -78,26 +70,20 @@
     .navbar{
         margin-bottom: 150px;
     }
-    .solo-electro{
-        top: 826px;
-    }
-    .solo-electro2{
-        top: 824px;
-    }
+  
 }
 @media(max-width:1255px){
-    .education{
-        right: 10%;
+    .education img{
+        width: 320px;
+        height: 220px;
     }
     .skills-cards-container{
        flex-wrap: wrap;
     }
-    .aboutme-container{
+    .flex-container{
         margin: 0 100px;
     }
-    .Myskills-container{
-        margin: 76px 100px;
-    }
+   
     :root{
         --fs-100: 16px;
         --fs-200: 20px;
@@ -110,9 +96,7 @@
     .electro img{
         width: 200px;
     }
-    .education img{
-        width: 200px;
-    }
+  
     .aboutme-speeech {
         max-width: 600px;
     }
@@ -125,16 +109,8 @@
     .navbar{
         margin-bottom: 100px;
     }
-    .solo-electro{
-        top: 680px;
-    }
-    .solo-electro2{
-        top: 680px;
-    }
-    .solo-electro svg,.solo-electro2 svg,
-    .solo-electro3 svg,.solo-electro4 svg{
-     width: 1000px;
-    }
+  
+   
     .detail-union svg {
         width: 230px;
     }
@@ -158,13 +134,16 @@
 
 
 @media(max-width:1100px){
-   
-    .aboutme-container{
+
+    .education img{
+        width: 300px;
+        height: 200px;
+    }
+    .flex-container{
         margin: 0 50px;
+        padding-bottom: 200px;
     }
-    .Myskills-container{
-        margin: 76px 50px;
-    }
+   
     :root{
         --fs-100: 16px;
         --fs-200: 20px;
@@ -190,12 +169,7 @@
     .navbar{
         margin-bottom: 100px;
     }
-    .solo-electro{
-        top: 656px;
-    }
-    .solo-electro2{
-        top: 654px;
-    }
+    
     .detail-union svg {
         width: 230px;
     }
@@ -205,16 +179,28 @@
     .detail-speech {
         max-width: 288px;
     }
-    .solo-electro svg,.solo-electro2 svg,
-    .solo-electro3 svg,.solo-electro4 svg{
-     width: 700px;
-    }
+   
     h4{
         margin-bottom: 10px;
     }
 }
-
+@media(max-width:935px){
+    .education img{
+        width: 270px;
+        height: 170px;
+    }
+}
 @media (max-width:870px){
+    .gmail-icon img{
+        width: 30px;
+    }
+    .gmail{
+        gap: 20px;
+    }
+    .flex-container{
+        margin: 0 50px;
+        padding-bottom: 100px;
+    }
     .double-card{
         flex-wrap: wrap;
         justify-content: center;
@@ -238,12 +224,7 @@
            display: flex;
            align-items: center;
     }
-    .solo-electro{
-        top: 526px;
-    }
-    .solo-electro2{
-        top: 524px;
-    }
+   
     .antonio img{
         width: 300px;
     }
@@ -253,48 +234,54 @@
     .aboutme-speeech {
         max-width: 400px;
     }
-    .education img {
-        width: 150px;
-    }
-    .education {
-     top: 50px;
-    }
+  
     .little-code img{
         width: 100px;
     }
     .big-code img{
         width: 200px;
     }
-    .solo-electro svg,.solo-electro2 svg,
-    .solo-electro3 svg,.solo-electro4 svg{
-     width: 600px;
+ 
+
+}
+@media(max-width:805px){
+    .education{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        right: 0;
     }
+    .aboutme-details{
     
+        margin-top: 50px;
+       
+    }
+    .aboutme-speeech {
+        max-width: 90%;
+    }
 }
 
 @media(max-width:670px){
+    .detail-union {
+        top: 50px;
+    }
+    .education img{
+        width: 240px;
+        height: 140px;
+    }
     .gmail img{
         width: 26px;
     }
     .gmail{
         gap: 20px;
     }
-    .solo-electro svg,.solo-electro2 svg,
-    .solo-electro3 svg,.solo-electro4 svg{
-     width: 400px;
-    }
-    .aboutme-container{
+   
+    .flex-container{
         margin: 0 20px;
     }
-    .Myskills-container{
-        margin: 76px 20px;
-    }
-    .education{
-        top: 160px;
-        right: 100px;
-    }
+    
     .details-container {
-        margin: 250px auto 80px;
+        margin: 140px auto 80px;
     }
     .aboutme-speeech {
         max-width: 90%;
@@ -318,20 +305,11 @@
         margin-top: -40px;
     }
    
-    .Myskills-container {
-       
-        padding-bottom: 100px;
-       
-    }
+ 
     .section1 {
         margin-bottom: 300px;
     }
-    .solo-electro{
-        top: 482px;
-    }
-    .solo-electro2{
-        top: 480px;
-    }
+    
     .little-code img{
         width: 70px;
     }
@@ -341,6 +319,7 @@
 }
 
 @media (max-width:580px){
+    
     :root{
         --fs-100: 14px;
         --fs-200: 16px;
@@ -353,14 +332,12 @@
     .antonio{
         display: none;
     }
-    .solo-electro svg, .solo-electro2 svg, .solo-electro3 svg, .solo-electro4 svg {
-        width: 330px;
-    }
+  
     .animated-text2{
         text-align: center;
     }
     .details-container {
-        margin: 200px auto 80px;
+        margin: 140px auto 80px;
     }
     .detail-union svg {
         width:130px;
@@ -371,12 +348,7 @@
     .section1{
         padding-top: 350px;
     }
-    .solo-electro{
-        top: 782px;
-    }
-    .solo-electro2{
-        top: 780px;
-    }
+
    .detail3{
     margin-top: -70px;
    }
@@ -403,11 +375,21 @@
     margin: auto 10px;
  }   
  .skill-card {
-    max-width: 370px;
+    max-width: 320px;
+}
+.big-code img {
+    width: 100px;
+}
+.big-code{
+    bottom: 50px ;
 }
 }
 
 @media (max-width:430px){
+    .education img{
+        width: 200px;
+        height: 130px;
+    }
     :root{
         --fs-100: 12px;
         --fs-200: 14px;
@@ -418,7 +400,7 @@
         max-width: 120px;
     }
     .detail-union {
-        top: 110px;
+        top: 30px;
     }
     .detail2 {
         margin-top: -70px;
