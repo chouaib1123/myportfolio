@@ -478,6 +478,11 @@
         opacity: 1;
         transform: translateX(0%);
     }
+   
+    .topic-container{
+        overflow: hidden;
+        position: relative;
+    }
  
     .navbar{
         justify-content:flex-end;
