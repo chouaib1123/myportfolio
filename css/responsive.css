@@ -1,412 +1,548 @@
-@media (max-width:1740px){   
-    .flex-container{
+@media (max-width:1740px) {
+    .flex-container {
         margin: 0 250px;
-    } 
-    :root{
+    }
+
+    :root {
         --fs-100: 19px;
         --fs-200: 23px;
         --fs-400: 42px;
         --fs-500: 60px;
     }
+
+    .edu3 img {
+        width: 499px;
+        height: 251px;
+    }
 }
 
 
-@media (max-width:1545px){
-    .detail-union svg {
-      width: 300px;
+
+@media (max-width:1545px) {
+    .edu3 img {
+        width: 383px;
+        height: 193px;
     }
-    .detail-union{
+
+    .edu2 img {
+        width: 291px;
+        height: 274px;
+    }
+
+    .edu1 img {
+        width: 291px;
+        height: 291px;
+    }
+
+    .detail-union svg {
+        width: 300px;
+    }
+
+    .detail-union {
         top: 250px;
     }
-    .flex-container{
+
+    .flex-container {
         margin: 0 200px;
     }
-   
-    :root{
+
+    :root {
         --fs-100: 17px;
         --fs-200: 21px;
         --fs-400: 39px;
         --fs-500: 57px;
     }
-    .detail-speech{
+
+    .detail-speech {
         max-width: 358px;
     }
 }
 
-@media(max-width:1436px){
-    .education img{
-        width: 350px;
-        height: 250px;
-    }
-    .skills-cards-container{
+@media(max-width:1436px) {
+
+    .skills-cards-container {
         gap: 40px;
     }
-    .flex-container{
+
+    .flex-container {
         margin: 0 150px;
     }
-   
-    :root{
+
+    :root {
         --fs-100: 16px;
         --fs-200: 20px;
         --fs-400: 35px;
         --fs-500: 53px;
     }
-    .antonio img{
+
+    .antonio img {
         width: 500px;
     }
-    .electro img{
+
+    .electro img {
         width: 250px;
     }
-   
-    .aboutme-speeech {
+
+    .Heading-div-speech {
         max-width: 600px;
     }
-    .little-code img{
+
+    .little-code img {
         width: 200px;
     }
-    .big-code img{
+
+    .big-code img {
         width: 300px;
     }
-    .navbar{
+
+    .navbar {
         margin-bottom: 150px;
     }
-  
+
 }
-@media(max-width:1255px){
-    .education img{
-        width: 320px;
-        height: 220px;
+
+@media(max-width:1255px) {
+
+    .skills-cards-container {
+        flex-wrap: wrap;
     }
-    .skills-cards-container{
-       flex-wrap: wrap;
-    }
-    .flex-container{
+
+    .flex-container {
         margin: 0 100px;
     }
-   
-    :root{
+
+    :root {
         --fs-100: 16px;
         --fs-200: 20px;
         --fs-400: 30px;
         --fs-500: 48px;
     }
-    .antonio img{
+
+    .antonio img {
         width: 400px;
     }
-    .electro img{
+
+    .electro img {
         width: 200px;
     }
-  
-    .aboutme-speeech {
+
+    .Heading-div-speech {
         max-width: 600px;
     }
-    .little-code img{
+
+    .little-code img {
         width: 150px;
     }
-    .big-code img{
+
+    .big-code img {
         width: 250px;
     }
-    .navbar{
+
+    .navbar {
         margin-bottom: 100px;
     }
-  
-   
+
+
     .detail-union svg {
         width: 230px;
     }
+
     .detail3 {
         margin-top: 50px;
     }
-    .section1{
+
+    .section1 {
         margin-bottom: 350px;
     }
+
     .details-container {
         margin: 176px auto 80px;
     }
+
     .detail-union {
         top: 150px;
     }
-    .navbar{
-       padding-top: 20px; 
+
+    .navbar {
+        padding-top: 20px;
     }
-    
+
 }
 
 
-@media(max-width:1100px){
-
-    .education img{
-        width: 300px;
-        height: 200px;
+@media(max-width:1100px) {
+    .edu2 img {
+        width: 217px;
+        height: 204px;
     }
-    .flex-container{
+
+    .edu1 img {
+        width: 201px;
+        height: 201px;
+    }
+
+    .flex-container {
         margin: 0 50px;
         padding-bottom: 200px;
     }
-   
-    :root{
+
+    :root {
         --fs-100: 16px;
         --fs-200: 20px;
         --fs-400: 30px;
         --fs-500: 48px;
     }
-    .antonio img{
+
+    .antonio img {
         width: 350px;
     }
-    .electro img{
+
+    .electro img {
         width: 150px;
     }
-    
-    .aboutme-speeech {
+
+    .Heading-div-speech {
         max-width: 500px;
     }
-    .little-code img{
+
+    .little-code img {
         width: 150px;
     }
-    .big-code img{
+
+    .big-code img {
         width: 250px;
     }
-    .navbar{
+
+    .navbar {
         margin-bottom: 100px;
     }
-    
+
     .detail-union svg {
         width: 230px;
     }
+
     .detail3 {
         margin-top: 0px;
     }
+
     .detail-speech {
         max-width: 288px;
     }
-   
-    h4{
+
+    h4 {
         margin-bottom: 10px;
     }
 }
-@media(max-width:935px){
-    .education img{
-        width: 270px;
-        height: 170px;
+
+
+@media(max-width:935px) {
+    .education {
+        right: 3%;
     }
 }
-@media (max-width:870px){
-    .gmail-icon img{
+
+@media (max-width:870px) {
+    .gmail-icon img {
         width: 30px;
     }
-    .gmail{
+
+    .gmail {
         gap: 20px;
     }
-    .flex-container{
+
+    .flex-container {
         margin: 0 50px;
         padding-bottom: 100px;
     }
-    .double-card{
+
+    .double-card {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .detail-speech {
         max-width: 200px;
     }
-    
-    :root{
+
+    :root {
         --fs-100: 14px;
         --fs-200: 18px;
         --fs-400: 26px;
         --fs-500: 40px;
     }
+
     .skill-card {
-       flex-direction: row;
-       max-width: 500px;
-       align-items: center;
+        flex-direction: row;
+        max-width: 500px;
+        align-items: center;
     }
-    .skill-card-speech{
-           display: flex;
-           align-items: center;
+
+    .skill-card-speech {
+        display: flex;
+        align-items: center;
     }
-   
-    .antonio img{
+
+    .antonio img {
         width: 300px;
     }
+
     .section1 {
         margin-bottom: 300px;
     }
-    .aboutme-speeech {
+
+    .Heading-div-speech {
         max-width: 400px;
     }
-  
-    .little-code img{
+
+    .little-code img {
         width: 100px;
     }
-    .big-code img{
+
+    .big-code img {
         width: 200px;
     }
- 
+
 
 }
-@media(max-width:805px){
-    .education{
+
+@media(max-width:805px) {
+    .about-me-cards {
+        margin: 170px 30px 136px;
+
+    }
+    .contact-details .Heading-div-title {
+        margin-bottom: 0px;
+    }
+    .education {
         position: relative;
         display: flex;
         justify-content: center;
         right: 0;
     }
-    .aboutme-details{
-    
-        margin-top: 50px;
-       
+
+    .edu3 img {
+        width: 299px;
+        height: 151px;
     }
-    .aboutme-speeech {
+
+    .Heading-div {
+
+        margin-top: 50px;
+
+    }
+
+    .Heading-div-speech {
         max-width: 90%;
     }
 }
 
-@media(max-width:670px){
+@media(max-width:670px) {
     .detail-union {
         top: 50px;
     }
-    .education img{
-        width: 240px;
-        height: 140px;
-    }
-    .gmail img{
+
+    .gmail img {
         width: 26px;
     }
-    .gmail{
+
+    .gmail {
         gap: 20px;
     }
-   
-    .flex-container{
+
+    .flex-container {
         margin: 0 20px;
     }
-    
+
     .details-container {
         margin: 140px auto 80px;
     }
-    .aboutme-speeech {
+
+    .Heading-div-speech {
         max-width: 90%;
     }
+
     .detail-union svg {
-        width:180px;
+        width: 180px;
     }
-    
-    :root{
+
+    :root {
         --fs-100: 14px;
         --fs-200: 17px;
         --fs-400: 25px;
         --fs-500: 40px;
     }
+
     .skill-card {
-   
+
         max-width: 400px;
-       
+
     }
-    .detail2{
+
+    .detail2 {
         margin-top: -40px;
     }
-   
- 
+
+
     .section1 {
         margin-bottom: 300px;
     }
-    
-    .little-code img{
+
+    .little-code img {
         width: 70px;
     }
-    .big-code img{
+
+    .big-code img {
         width: 150px;
     }
 }
 
-@media (max-width:580px){
-    
-    :root{
+@media (max-width:580px) {
+    .phone-button{
+     display: inline-block;
+    }
+    .edu3 img {
+        width: 299px;
+        height: 151px;
+    }
+
+    .edu2 img {
+        width: 147px;
+        height: 138px;
+    }
+
+    .edu1 img {
+        width: 155px;
+        height: 155px;
+    }
+
+    .Heading-div {
+        margin-top: 50px;
+    }
+
+    :root {
         --fs-100: 14px;
         --fs-200: 16px;
         --fs-400: 24px;
         --fs-500: 48px;
     }
+
     .detail-speech {
         max-width: 150px;
     }
-    .antonio{
+
+    .antonio {
         display: none;
     }
-  
-    .animated-text2{
+
+    .animated-text2 {
         text-align: center;
     }
+
     .details-container {
         margin: 140px auto 80px;
     }
+
     .detail-union svg {
-        width:130px;
+        width: 130px;
+    }
+
+    .navbar ul{
+        
+        position: absolute;
+        flex-direction: column;
+        top:10% ;
+       align-items: end;
+       background-color: var(--card-clr);
+       padding: 50px 20px 50px 50px;
+       border-right: 5px;
+       border-top-left-radius: 10px;
+       border-bottom-left-radius: 10px;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .navbar.active ul{
+        opacity: 1;
+        transform: translateX(0%);
     }
     .navbar{
-        display: none;
+        justify-content:flex-end;
+        
+        z-index: 1;
     }
-    .section1{
+
+    .section1 {
         padding-top: 350px;
     }
 
-   .detail3{
-    margin-top: -70px;
-   }
-   .phone-electro{
-    display: block;
-   }
-   .electro{
-    display: none;
-   }
-   .animated-text {
-  
-    letter-spacing: 0.01em;
-  
-
-}
-.aboutme-speeech {
-    max-width: 100%;
-}
-.skill-card-icon img{
-    width: 64px;
+    .detail3 {
+        margin-top: -70px;
     }
- .skill-card-speech{
-    height: 100px;
-    margin: auto 10px;
- }   
- .skill-card {
-    max-width: 320px;
-}
-.big-code img {
-    width: 100px;
-}
-.big-code{
-    bottom: 50px ;
-}
+
+    .phone-electro {
+        display: block;
+        
+    }
+
+    .electro {
+        display: none;
+    }
+
+    .animated-text {
+
+        letter-spacing: 0.01em;
+
+
+    }
+
+    .Heading-div-speech {
+        max-width: 100%;
+    }
+
+    .skill-card-icon img {
+        width: 64px;
+    }
+
+    .skill-card-speech {
+        height: 100px;
+        margin: auto 10px;
+    }
+
+    .skill-card {
+        max-width: 320px;
+    }
+
+    .big-code img {
+        width: 100px;
+    }
+
+    .big-code {
+        bottom: 50px;
+    }
 }
 
-@media (max-width:430px){
-    .education img{
-        width: 200px;
-        height: 130px;
-    }
-    :root{
+@media (max-width:430px) {
+
+    :root {
         --fs-100: 12px;
         --fs-200: 14px;
         --fs-400: 22px;
         --fs-500: 45px;
     }
+
     .detail-speech {
         max-width: 120px;
     }
+
     .detail-union {
         top: 30px;
     }
+
     .detail2 {
         margin-top: -70px;
     }
-    .phone-electro{
+
+    .phone-electro {
         left: -20%;
     }
 }
-

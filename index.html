@@ -29,12 +29,19 @@
                 </div>
 
                 <div class="navbar">
-                    <ul>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">SKILLS</a></li>
-                        <li><a href="#">WORKS</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                    <ul class="nav">
+                        <li><a href="#section1" class="nav-item">ABOUT</a></li>
+                        <li><a href="#section2" class="nav-item">SKILLS</a></li>
+                        <li><a href="#section3" class="nav-item">WORKS</a></li>
+                        <li><a href="#section4" class="nav-item">CONTACT</a></li>
                     </ul>
+                    <button class="phone-button" onclick="movebar()">
+                        <div> <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38"
+                                fill="none">
+                                <path d="M6.33325 12.6667H31.6666M6.33325 25.3334H31.6666" stroke="white"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></div>
+                    </button>
                 </div>
 
                 <div class="section1">
@@ -58,29 +65,32 @@
                     <img src="Union.png">
                 </div>
                 <div class="antonio">
-                    <img src="Plan-de-travail-41-1024x1024 1.png">
+                    <img src="Plan-de-travail-41-1024x1024 2.png">
                 </div>
 
-                <div class="solo-electro">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1313" height="64" viewBox="0 0 1313 64" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M-35 3H768.427L825 53.6179L825.427 54H826H1289.67C1290.62 59.3979 1295.33 63.5 1301 63.5C1307.35 63.5 1312.5 58.3513 1312.5 52C1312.5 45.6487 1307.35 40.5 1301 40.5C1294.99 40.5 1290.05 45.117 1289.54 51H826.573L770 0.382138L769.573 0H769H-35V3ZM1308.5 52C1308.5 56.1421 1305.14 59.5 1301 59.5C1296.86 59.5 1293.5 56.1421 1293.5 52C1293.5 47.8579 1296.86 44.5 1301 44.5C1305.14 44.5 1308.5 47.8579 1308.5 52Z" fill="#2E86D8" fill-opacity="1"/>
-                      </svg>
-                     <div class="solo-electro2">   </div>
-                     
-                </div>
-               
+
+
 
 
             </div>
             <!--/First vue -->
-            <div class="Section">
-                <div class="education">
+            <div class="Section" id="section1">
+                <div class="solo-electro">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1313" height="64" viewBox="0 0 1313 64" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M-35 3H768.427L825 53.6179L825.427 54H826H1289.67C1290.62 59.3979 1295.33 63.5 1301 63.5C1307.35 63.5 1312.5 58.3513 1312.5 52C1312.5 45.6487 1307.35 40.5 1301 40.5C1294.99 40.5 1290.05 45.117 1289.54 51H826.573L770 0.382138L769.573 0H769H-35V3ZM1308.5 52C1308.5 56.1421 1305.14 59.5 1301 59.5C1296.86 59.5 1293.5 56.1421 1293.5 52C1293.5 47.8579 1296.86 44.5 1301 44.5C1305.14 44.5 1308.5 47.8579 1308.5 52Z"
+                            fill="#2E86D8" fill-opacity="1" />
+                    </svg>
+                    <div class="solo-electro2"> </div>
+                    <div class="solo-electro2 late"> </div>
+                </div>
+                <div class="education edu1">
                     <img src="school-5000781 1.png">
                 </div>
                 <div class="flex-container">
-                    <div class="aboutme-details">
-                        <div class="aboutme-title text-color ff-primary fs-secondary-heading fw-bold">ABOUT ME</div>
-                        <div class="aboutme-speeech text-color ff-primary fs-text fw-regular">Lorem ipsum dolor sit
+                    <div class="Heading-div aboutme-details">
+                        <div class="Heading-div-title text-color ff-primary fs-secondary-heading fw-bold">ABOUT ME</div>
+                        <div class="Heading-div-speech text-color ff-primary fs-text fw-regular">Lorem ipsum dolor sit
                             amet,
                             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                             aliqua.
@@ -140,17 +150,20 @@
                     </div>
 
                 </div>
-                <div class="solo-electro3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1317" height="64" viewBox="0 0 1317 64" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1347.5 60.5L544.073 60.4999L487.5 9.88206L487.073 9.49992L486.5 9.49992L22.8267 9.49988C21.8801 4.10199 17.1692 -0.000116301 11.5 -0.000116797C5.14869 -0.000117352 5.10123e-06 5.14861 4.54598e-06 11.4999C3.99074e-06 17.8512 5.14869 22.9999 11.5 22.9999C17.5144 22.9999 22.4504 18.3829 22.9572 12.4999L485.927 12.4999L542.5 63.1178L542.927 63.4999L543.5 63.4999L1347.5 63.5L1347.5 60.5ZM4 11.4999C4 7.35775 7.35792 3.99988 11.5 3.99988C15.6421 3.99988 19 7.35775 19 11.4999C19 15.642 15.6421 18.9999 11.5 18.9999C7.35791 18.9999 4 15.642 4 11.4999Z" fill="#2E86D8" fill-opacity="1"/>
-                    </svg>
-                    <div class="solo-electro4">          
-                </div>
-                </div>
-              
+
+
             </div>
 
-            <div class="Section">
+            <div class="Section" id="section2">
+                <div class="solo-electro3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1317" height="64" viewBox="0 0 1317 64" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1347.5 60.5L544.073 60.4999L487.5 9.88206L487.073 9.49992L486.5 9.49992L22.8267 9.49988C21.8801 4.10199 17.1692 -0.000116301 11.5 -0.000116797C5.14869 -0.000117352 5.10123e-06 5.14861 4.54598e-06 11.4999C3.99074e-06 17.8512 5.14869 22.9999 11.5 22.9999C17.5144 22.9999 22.4504 18.3829 22.9572 12.4999L485.927 12.4999L542.5 63.1178L542.927 63.4999L543.5 63.4999L1347.5 63.5L1347.5 60.5ZM4 11.4999C4 7.35775 7.35792 3.99988 11.5 3.99988C15.6421 3.99988 19 7.35775 19 11.4999C19 15.642 15.6421 18.9999 11.5 18.9999C7.35791 18.9999 4 15.642 4 11.4999Z"
+                            fill="#2E86D8" fill-opacity="1" />
+                    </svg>
+                    <div class="solo-electro4"></div>
+                    <div class="solo-electro4 late2"></div>
+                </div>
                 <div class="little-code"><img src="code-1970468 1.png"></div>
 
                 <div class="flex-container">
@@ -177,27 +190,30 @@
 
                 </div>
                 <div class="big-code"><img src="Group.png"></div>
-                <div class="solo-electro">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1313" height="64" viewBox="0 0 1313 64" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M-35 3H768.427L825 53.6179L825.427 54H826H1289.67C1290.62 59.3979 1295.33 63.5 1301 63.5C1307.35 63.5 1312.5 58.3513 1312.5 52C1312.5 45.6487 1307.35 40.5 1301 40.5C1294.99 40.5 1290.05 45.117 1289.54 51H826.573L770 0.382138L769.573 0H769H-35V3ZM1308.5 52C1308.5 56.1421 1305.14 59.5 1301 59.5C1296.86 59.5 1293.5 56.1421 1293.5 52C1293.5 47.8579 1296.86 44.5 1301 44.5C1305.14 44.5 1308.5 47.8579 1308.5 52Z" fill="#2E86D8" fill-opacity="1"/>
-                      </svg>
-                     <div class="solo-electro2">   </div>
-                     
-                </div>
-              
+
+
             </div>
 
 
 
-            <div class="Section">
-                
-                <div class="education edu">
+            <div class="Section" id="section3">
+                <div class="solo-electro">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1313" height="64" viewBox="0 0 1313 64" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M-35 3H768.427L825 53.6179L825.427 54H826H1289.67C1290.62 59.3979 1295.33 63.5 1301 63.5C1307.35 63.5 1312.5 58.3513 1312.5 52C1312.5 45.6487 1307.35 40.5 1301 40.5C1294.99 40.5 1290.05 45.117 1289.54 51H826.573L770 0.382138L769.573 0H769H-35V3ZM1308.5 52C1308.5 56.1421 1305.14 59.5 1301 59.5C1296.86 59.5 1293.5 56.1421 1293.5 52C1293.5 47.8579 1296.86 44.5 1301 44.5C1305.14 44.5 1308.5 47.8579 1308.5 52Z"
+                            fill="#2E86D8" fill-opacity="1" />
+                    </svg>
+                    <div class="solo-electro2"> </div>
+                    <div class="solo-electro2 late"></div>
+
+                </div>
+                <div class="education edu2">
                     <img src="Frame.png">
                 </div>
                 <div class="flex-container">
-                    <div class="aboutme-details">
-                        <div class="aboutme-title text-color ff-primary fs-secondary-heading fw-bold">MY WORKS</div>
-                        <div class="aboutme-speeech text-color ff-primary fs-text fw-regular">Lorem ipsum dolor sit
+                    <div class="Heading-div myworks-details">
+                        <div class="Heading-div-title text-color ff-primary fs-secondary-heading fw-bold">MY WORKS</div>
+                        <div class="Heading-div-speech text-color ff-primary fs-text fw-regular">Lorem ipsum dolor sit
                             amet,
                             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                             aliqua.
@@ -216,14 +232,14 @@
 
 
                             <div class="card">
-                                <img src="project 2 1.png" alt="Card 4">
+                                <img src="z.png" alt="Card 4">
                             </div>
 
                         </div>
                         <div class="double-card">
 
                             <div class="card">
-                                <img src="project 2 1.png" alt="Card 4">
+                                <img src="project 3 1.png" alt="Card 4">
                             </div>
 
 
@@ -239,26 +255,31 @@
                         </button>
                     </div>
                 </div>
-                <div class="solo-electro3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1317" height="64" viewBox="0 0 1317 64" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1347.5 60.5L544.073 60.4999L487.5 9.88206L487.073 9.49992L486.5 9.49992L22.8267 9.49988C21.8801 4.10199 17.1692 -0.000116301 11.5 -0.000116797C5.14869 -0.000117352 5.10123e-06 5.14861 4.54598e-06 11.4999C3.99074e-06 17.8512 5.14869 22.9999 11.5 22.9999C17.5144 22.9999 22.4504 18.3829 22.9572 12.4999L485.927 12.4999L542.5 63.1178L542.927 63.4999L543.5 63.4999L1347.5 63.5L1347.5 60.5ZM4 11.4999C4 7.35775 7.35792 3.99988 11.5 3.99988C15.6421 3.99988 19 7.35775 19 11.4999C19 15.642 15.6421 18.9999 11.5 18.9999C7.35791 18.9999 4 15.642 4 11.4999Z" fill="#2E86D8" fill-opacity="1"/>
-                    </svg>
-                    <div class="solo-electro4">          
-                </div>
-                </div>
-                
+
             </div>
 
 
-            <div class="Section">
-             
+            <div class="Section" id="section4">
+                <div class="solo-electro3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1317" height="64" viewBox="0 0 1317 64" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1347.5 60.5L544.073 60.4999L487.5 9.88206L487.073 9.49992L486.5 9.49992L22.8267 9.49988C21.8801 4.10199 17.1692 -0.000116301 11.5 -0.000116797C5.14869 -0.000117352 5.10123e-06 5.14861 4.54598e-06 11.4999C3.99074e-06 17.8512 5.14869 22.9999 11.5 22.9999C17.5144 22.9999 22.4504 18.3829 22.9572 12.4999L485.927 12.4999L542.5 63.1178L542.927 63.4999L543.5 63.4999L1347.5 63.5L1347.5 60.5ZM4 11.4999C4 7.35775 7.35792 3.99988 11.5 3.99988C15.6421 3.99988 19 7.35775 19 11.4999C19 15.642 15.6421 18.9999 11.5 18.9999C7.35791 18.9999 4 15.642 4 11.4999Z"
+                            fill="#2E86D8" fill-opacity="1" />
+                    </svg>
+                    <div class="solo-electro4">
 
-                <div class="education edu"><img src="pc.png"></div>
+                    </div>
+                    <div class="solo-electro4 late2"></div>
+                </div>
+
+
+                <div class="education edu3"><img src="pc.png"></div>
 
                 <div class="flex-container">
-                    <div class="aboutme-details">
-                        <div class="aboutme-title text-color ff-primary fs-secondary-heading fw-bold">CONTACT ME</div>
-                        <div class="aboutme-speeech text-color ff-primary fs-text fw-regular">Lorem ipsum dolor sit
+                    <div class="Heading-div contact-details">
+                        <div class="Heading-div-title text-color ff-primary fs-secondary-heading fw-bold">CONTACT ME
+                        </div>
+                        <div class="Heading-div-speech text-color ff-primary fs-text fw-regular">Lorem ipsum dolor sit
                             amet,
                             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                             aliqua.
@@ -288,6 +309,44 @@
         <div class="footer-container text-color fs-neutral ff-primary fw-regular">Lorem ipsum dolor sit amet,
             consectetur adipiscing elit. </div>
     </div>
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll("a.nav-item");
+
+            navLinks.forEach(link => {
+                link.addEventListener("click", event => {
+                    event.preventDefault();
+
+                    const targetId = link.getAttribute("href");
+                    const targetSection = document.querySelector(targetId);
+
+                    if (targetSection) {
+                        window.scrollTo({
+                            top: targetSection.offsetTop,
+                            behavior: "smooth",
+                            duration: 1000
+
+                        });
+                    }
+                });
+            });
+        });
+
+        function movebar() {
+            const movnav = document.querySelector(".navbar");
+
+            if (movnav.classList.contains("active")) {
+                movnav.classList.remove("active");
+            } else {
+                movnav.classList.add("active");
+            }
+        }
+
+
+    </script>
 </body>
 
 </html>
