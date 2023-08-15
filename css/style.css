@@ -601,7 +601,11 @@ transform: scale(0);
     justify-content: center;
     padding: 20px;
 }
-
+.electro-night{
+   position: absolute;
+   
+    bottom: 0;
+}
 .footer {
     margin: 0;
     padding: 0;

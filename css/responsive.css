@@ -478,7 +478,10 @@
         opacity: 1;
         transform: translateX(0%);
     }
-   
+    .last-electro{
+        position: absolute;
+        bottom:0;
+    }
     .topic-container{
         overflow: hidden;
         position: relative;
