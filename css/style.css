@@ -80,7 +80,9 @@
     z-index: -9999999;
 
 }
-
+.footer-container label{
+    margin-left: 5px;
+}
 .topic-container {
     position: relative;
 
