@@ -1,6 +1,6 @@
 @media (max-width:1740px) {
     .flex-container {
-        margin: 0 250px;
+        margin: 0 200px;
     }
 
     :root {
@@ -20,7 +20,7 @@
         top: 330px;
         right: 40%;
     }
-    .detail-speech {
+    .detail {
         max-width: 358px;
     }
 }
@@ -52,7 +52,7 @@
     }
 
     .flex-container {
-        margin: 0 200px;
+        margin: 0 150px;
     }
 
     :root {
@@ -62,7 +62,7 @@
         --fs-500: 57px;
     }
 
-    .detail-speech {
+    .detail {
         max-width: 358px;
     }
 }
@@ -74,7 +74,7 @@
     }
 
     .flex-container {
-        margin: 0 150px;
+        margin: 0 120px;
     }
 
     :root {
@@ -205,11 +205,9 @@
     .antonio img {
         width: 350px;
     }
-    .detail-union {
-        top: 100px;
-    }
+   
     .electro img {
-        width: 150px;
+        display: none;
     }
 
     .Heading-div-speech {
@@ -236,7 +234,7 @@
         margin-top: 0px;
     }
 
-    .detail-speech {
+    .detail {
         max-width: 288px;
     }
 
@@ -253,12 +251,21 @@
 }
 
 @media (max-width:870px) {
+   
+  
+    .button span{
+        margin: 5px 16px;
+    }
     .gmail-icon img {
         width: 30px;
     }
 
     .gmail {
         gap: 20px;
+    }
+    .contact-button {
+        display: flex;
+        justify-content: center;
     }
 
     .flex-container {
@@ -271,7 +278,7 @@
         justify-content: center;
     }
 
-    .detail-speech {
+    .detail {
         max-width: 200px;
     }
 
@@ -294,9 +301,7 @@
         margin: auto 10px auto auto;
     }
 
-    .antonio img {
-        width: 300px;
-    }
+    
 
     .section1 {
         margin-bottom: 300px;
@@ -318,6 +323,16 @@
 }
 
 @media(max-width:805px) {
+    .Heading-div-title,.Heading-div-speech{
+        text-align: center;
+      }
+      .myskills-title{
+          text-align: center;
+      }
+      .Heading-div-speech{
+          width: 90%;
+          margin: 0 auto;
+      }
     .about-me-cards {
         margin: 170px 30px 136px;
 
@@ -342,6 +357,9 @@
         margin-top: 50px;
 
     }
+    .detail-union{
+        top: 100px;
+    }
 
     .Heading-div-speech {
         max-width: 90%;
@@ -350,9 +368,11 @@
 
 @media(max-width:670px) {
     .detail-union {
-        top: 0;
+        top: 5%;
     }
-
+.det{
+    margin-top: 0;
+}
     .gmail img {
         width: 26px;
     }
@@ -409,8 +429,9 @@
 }
 
 @media (max-width:580px) {
+    
     .phone-button{
-     display: inline-block;
+     display: block;
      margin-right: 10px;
     }
     .edu3 img {
@@ -439,7 +460,7 @@
         --fs-500: 48px;
     }
 
-    .detail-speech {
+    .detail {
         max-width: 150px;
     }
 
@@ -455,8 +476,8 @@
         margin: 140px auto 80px;
     }
 
-    .detail-union svg {
-        width: 130px;
+    .detail-union  {
+       top: 8%;
     }
 
     .navbar ul{
@@ -465,14 +486,14 @@
         flex-direction: column;
         top:10% ;
        
-       background-color: var(--card-clr);
-       padding: 50px 30px 50px 20px;
-       border-right: 5px;
-       border-top-left-radius: 10px;
-       border-bottom-left-radius: 10px;
-        transform: translateX(100%);
-        opacity: 0;
-        transition: all 0.5s;
+        background-color: var(--card-clr);
+        padding: 50px 30px 50px 20px;
+        border-right: 5px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+            transform: translateX(100%);
+            opacity: 0;
+            transition: all 0.5s;
     }
     .navbar.active ul{
         opacity: 1;
@@ -539,26 +560,34 @@
     }
 
     .big-code {
-        bottom: 50px;
+        bottom: 0;
     }
 }
-
+@media(max-width:468px){
+   .detail-union svg{
+    width: 130px;
+   }
+   .detail-union{
+    top: 0;
+   }
+   :root{
+    --fs-100: 11px;
+   }
+}
 @media (max-width:430px) {
 
     :root {
-        --fs-100: 12px;
+        
         --fs-200: 14px;
         --fs-400: 22px;
         --fs-500: 45px;
     }
 
-    .detail-speech {
+    .detail {
         max-width: 120px;
     }
 
-    .detail-union {
-        top: -20px;
-    }
+    
 
     .detail2 {
         margin-top: -70px;
